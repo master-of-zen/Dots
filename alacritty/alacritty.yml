@@ -1,0 +1,62 @@
+TERM: alacritty
+window:
+  dimensions:
+    columns: 220
+    lines: 50
+  dynamic_padding: false
+scrolling:
+  history: 10000
+  # Scrolling distance multiplier.
+  multiplier: 3
+
+# Font configuration
+font:
+  # Normal (roman) font face
+  normal:
+    family: "FiraCode Nerd Font Mono"
+    style: Light
+
+  bold:
+    family: "FiraCode Nerd Font Mono"
+    style: Regular
+
+  italic:
+    family: "FiraCode Nerd Font Mono"
+    style: Light Italic
+
+  bold_italic:
+    family: "FiraCode Nerd Font Mono"
+    style: Italic
+
+  size: 15
+cursor:
+  style:
+    shape: Beam
+    blinking: Always
+  blink_interval: 500
+live_config_reload: true
+colors:
+  primary:
+    background: '#0A0E14'
+    foreground: '#B3B1AD'
+
+  normal:
+    black: '#01060E'
+    red: '#EA6C73'
+    green: '#91B362'
+    yellow: '#F9AF4F'
+    blue: '#53BDFA'
+    magenta: '#FAE994'
+    cyan: '#90E1C6'
+    white: '#C7C7C7'
+
+  bright:
+    black: '#686868'
+    red: '#F07178'
+    green: '#C2D94C'
+    yellow: '#FFB454'
+    blue: '#59C2FF'
+    magenta: '#FFEE99'
+    cyan: '#95E6CB'
+    white: '#FFFFFF'
+theme: Ayu-Dark
